@@ -580,13 +580,13 @@ async function payWithAppota(req, res) {
         "partnerReference": {
             "order": {
                 "id": orderId,
-                "info": "EUCHOICE DON HANG " + orderId,
+                "info": "bookstore DON HANG " + orderId,
                 "extraData": ""
             },
             "notificationConfig": {
-                "notifyUrl": "https://backend.euchoice.vn/api/v1/ipn",
-                "redirectUrl": "https://euchoice.vn/user/purchase",
-                "installmentNotifyUrl": "https://backend.euchoice.vn/api/v1/ipn"
+                "notifyUrl": "https://backend.bookstore.vn/api/v1/ipn",
+                "redirectUrl": "https://bookstore.vn/user/purchase",
+                "installmentNotifyUrl": "https://backend.bookstore.vn/api/v1/ipn"
             }
         }
     }
