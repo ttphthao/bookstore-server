@@ -37,7 +37,7 @@ app.use(bodyParser.json({ limit: '5mb' }));
 
 app.use(logger);
 app.get('/api/test', (req, res) => {
-    res.send('test');
+    res.send('Thao test api');
 })
 
 // no need login
