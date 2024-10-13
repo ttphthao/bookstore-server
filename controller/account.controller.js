@@ -231,7 +231,6 @@ module.exports = {
     addAccount,
     list,
     adminList,
-    update,
     register,
     update,
     changePassword,
